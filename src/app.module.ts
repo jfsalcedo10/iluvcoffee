@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 import { CoffeesModule } from './coffees/coffees.module';
 import { CoffeeRatingModule } from './coffee-rating/coffee-rating.module';
 import { ConfigModule } from '@nestjs/config';
-import appConfig from 'config/app.config';
+import appConfig from './config/app.config';
 import { CommonModule } from './common/common.module';
 
 @Module({
